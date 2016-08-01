@@ -1,3 +1,4 @@
+FROM ubuntu:16.04
 MAINTAINER Alan "acraig94@gmail.com"
 RUN apt-get -q update && apt-get -yq dist-upgrade
 RUN apt-get -yq install apache2
